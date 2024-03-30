@@ -1,0 +1,304 @@
+/* default css  */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    padding-left: 0;
+}
+.khula-light {
+    font-family: "Khula", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .khula-regular {
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .khula-semibold {
+    font-family: "Khula", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .khula-bold {
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .khula-extrabold {
+    font-family: "Khula", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+ 
+  .primary-title{
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px; 
+}
+.sub-title{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.primary-button{
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+/* top bar  */
+.top-bar{
+    background-color: green;
+   
+}
+.top-bar a{
+   color: rgb(226, 207, 207);
+   transition: 0.3s ease-in-out;
+}
+.top-bar p{
+    color: white;
+}
+.top-bar a:hover{
+color: #fff;
+font-weight: 600;
+}
+/* top header  */
+.top-header ul li a{
+    color: grey;
+    transition: 0.3s ease-in-out;
+}
+.top-header ul li a:hover{
+    color: green;
+    font-weight: 600;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-shadow: 0px 5px 2px 0px rgba(214,199,214,1);
+-moz-box-shadow: 0px 5px 2px 0px rgba(214,199,214,1);
+box-shadow: 0px 5px 2px 0px rgba(214,199,214,1);
+max-width: 100vw;
+}
+.top-header{
+    background-color: #fff;
+    z-index: 999;
+}
+/* main nav  */
+.main-nav ul li{
+    border-right: 1px solid #dee2e6;
+}
+.main-nav ul li:last-child{
+    border-right: none;
+}
+.dropdown{
+    position: unset !important;
+}
+.main-nav-dropdown.show {
+    display: flex;
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+}
+ .dropdown-menu{
+    border: none;
+}
+/* bannner */
+.banner{
+    background-image: url(../images/template\ images/Banner.jpeg);
+    padding: 80px 50px;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* blog section  */
+.card-img-overlay{
+    background-color:rgba(19, 18, 18,0.5);
+    top: unset;
+}
+.card-title{
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+.card-text{
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+.card{
+    border: none;
+}
+/* brands section  */
+.page-title h3{
+    font-size: 20px;
+    font-family: "Khula", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: gray;
+}
+.brand-images ul li img{
+filter: grayscale(1) contrast(0.3);
+}
+.splide__arrows button{
+    background-color: transparent;
+}
+.splide__arrows i{
+font-size: 30px;
+color: gray;
+}
+
+/* cards section  */
+.card-title{
+    font-size: 22px;
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.card-text{
+    font-size: 21px;
+    font-family: "Khula", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.card-body{
+    color: grey;
+}
+.cart{
+    font-family: "Khula", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* footer blog  */
+.final-blog{
+    top: 0!important;
+}
+.crossing{
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+}
+.list{
+    font-size: 19px;
+}
+
+/* join the club  */
+.join-club{
+    background-image: url('../images/template\ images/view.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.member{
+    color: #fff;
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.join-club .row{
+    padding: 0 100px;
+}
+.exclusive{
+    font-size: 19px;
+    color: #fff;
+}
+/* footer section  */
+.customer{
+    font-family: "Khula", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+}
+.footer{
+    color: gray;
+    background-color: rgb(245, 235, 235);
+}
+.footer ul li a{
+    color: gray;
+}
+/* copyright section  */
+.copyright-section{
+    background-color: green;
+}
+.copy a{
+color: #fff;
+}
+
+
+
+
+
+
+
+     @media (max-width: 768px) { 
+      
+        .kits{
+            width: 100% !important;
+      
+        }
+        .main-nav-dropdown.show {
+            display:block;
+        }
+     } 
+     @media (max-width: 576px) { 
+       
+    .kits{
+        width: 100% !important;
+    }
+    .main-nav-dropdown.show {
+        display:block;
+    }
+
+     } 
+     @media (max-width: 1024px) { 
+        .join-club .row{
+            padding: 0 50px;
+        }
+
+     }
+     
+     @media (max-width: 992px) { 
+        .main-nav-dropdown.show {
+            display:block;
+        }
+
+     }
+     @media (max-width: 1200px) { 
+        .main-nav-dropdown.show {
+            display:flex;
+        }
+
+     }
+     @media (max-width: 1400px) { 
+        .main-nav-dropdown.show {
+            display:flex;
+        }
+
+     }
+     
