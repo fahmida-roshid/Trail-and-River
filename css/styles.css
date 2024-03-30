@@ -263,7 +263,7 @@ color: #fff;
       
         }
         .main-nav-dropdown.show {
-            display:block;
+            display:block !important;
         }
      } 
      @media (max-width: 576px) { 
@@ -272,7 +272,7 @@ color: #fff;
         width: 100% !important;
     }
     .main-nav-dropdown.show {
-        display:block;
+        display:block !important;
     }
 
      } 
@@ -285,7 +285,7 @@ color: #fff;
      
      @media (max-width: 992px) { 
         .main-nav-dropdown.show {
-            display:block;
+            display:block !important;
         }
 
      }
